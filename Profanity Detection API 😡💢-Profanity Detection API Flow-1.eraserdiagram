@@ -1,0 +1,26 @@
+flowchart-diagram
+
+title Profanity Detection API Flow
+
+// Define groups for better organization
+User Interaction {
+  User Input [shape: oval, icon: user]
+  Display Result [shape: oval, icon: monitor]
+}
+
+API Processing {
+  Receive Input [icon: inbox]
+  Check Profanity [icon: search]
+  Censor Profanity [icon: gcp-gemini]
+  Send Response [icon: send]
+}
+
+// Define the flow
+User Input > Receive Input: User submits text
+Receive Input > Check Profanity: API receives text
+Check Profanity > Profanity Found? [shape: diamond, icon: alert-triangle]
+Profanity Found? > Censor Profanity: Yes
+Profanity Found? > Send Response: No
+Censor Profanity > Send Response: Censor detected profanity
+Send Response > Display Result: API sends response
+
