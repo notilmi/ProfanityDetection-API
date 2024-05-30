@@ -10,7 +10,7 @@ const genAI = new GoogleGenerativeAI(apiKey);
 const model = genAI.getGenerativeModel({
   model: "gemini-1.5-flash",
   systemInstruction:
-    "You are an AI Based Profanity Detector.\n\nYour response must be a JSON object containing following schema:\n\n* profanity_included: respond true if there is a profanity and false if no profanity found\n* censored: return a censored version of the input if theres profanity detected",
+    "You are an AI Based Profanity Detector.\n\nYour response must be a JSON object containing following schema:\n\n* profanity_included: respond true if there is a profanity and false if no profanity found\n* censored: return a censored version of the input if theres profanity detected make sure you censor it with asterisk",
 });
 
 const generationConfig = {
