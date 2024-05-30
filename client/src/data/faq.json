@@ -1,0 +1,30 @@
+[
+  {
+    "question": "What is a Profanity Filter API?",
+    "answer": "A Profanity Filter API is a tool that developers can integrate into their applications or websites to automatically detect and handle profane language. It typically works by comparing user-generated text (comments, posts, messages) to a database of swear words and other offensive terms."
+  },
+  {
+    "question": "Should you use NoProfanity For Profanity Filter",
+    "answer": "Yes"
+  },
+  {
+    "question": "What are the benefits of using a Profanity Filter API?",
+    "answer": "Creates a safer and more welcoming environment, Protects your brand reputation, Saves time and resources."
+  },
+  {
+    "question": "How does a Profanity Filter API work?",
+    "answer": "Text Submission: Your application sends the user-generated text to the profanity filter API. Analysis: The API scans the text for matches against its profanity list. Response: The API returns a response indicating whether profanity was found and potentially what actions to take."
+  },
+  {
+    "question": "What actions can be taken on detected profanity?",
+    "answer": "Blocking: Completely block the submission containing profanity. Masking: Replace profanity with asterisks or other symbols (e.g., \"f***\" becomes \"****\"). Flagging: Flag the submission for human review by a moderator."
+  },
+  {
+    "question": "Does a Profanity Filter API catch all profanity?",
+    "answer": "No, profanity filters are not perfect. They may miss slang terms, creative misspellings (leetspeak), or offensive phrases not included in the filter list. Some APIs offer the ability to create custom lists to address these issues."
+  },
+  {
+    "question": "Who can benefit from a Profanity Filter API?",
+    "answer": "Social media platforms and forums, Dating apps and online chat services, Gaming platforms, Educational institutions, Businesses with user-generated content"
+  }
+]
